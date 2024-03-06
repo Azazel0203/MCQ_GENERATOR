@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mcq-generator
+Version: 0.0.1
+Author: Aadarsh Kumar Singh
+Author-email: aadarshkr.singh.cd.ece21@itbhu.ac.in
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: PyPDF2
