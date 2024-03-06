@@ -15,6 +15,9 @@ python-dotenv
 # PyPDF2 for PDF manipulation in Python
 PyPDF2
 
+langchain_community
+langchain-openai
+
 # To install the local package in the environment,
 # you can either use 'python setup.py install'
 # or just add '-e .' to install in editable mode. 
