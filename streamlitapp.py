@@ -3,11 +3,13 @@ import json
 import traceback
 import pandas as pd
 from dotenv import load_dotenv
+# import langchain
 from src.mcq_generator.utils import read_file, get_table_data
 from src.mcq_generator.logger import logging
-
+from langchain.globals import set_verbose
+set_verbose(True)
 import streamlit as st
-from langchain.callbacks import get_openai_callback
+from langchain_community.callbacks import get_openai_callback
 from src.mcq_generator.MCQGenerator import generate_and_evaluate_quiz
 
 
@@ -18,7 +20,7 @@ with open('Response.json', 'r') as file:
 # STREAMLIT PART
 
 # the title
-st.title("MCQs Creator")
+st.title("MCQ Generator")
 
 # the input form
 with st.form("user_inputs"):
