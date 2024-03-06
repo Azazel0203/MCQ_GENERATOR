@@ -32,7 +32,7 @@ with st.form("user_inputs"):
     
     # check for button click
     if button and uploaded_file is not None and mcq_count and subject and tone:
-        with st.spinner("Rukja Thoda..."):
+        with st.spinner("Loading..."):
             try:
                 text = read_file(uploaded_file)
                 # call the llm while getting the token metrics
