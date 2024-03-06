@@ -33,8 +33,6 @@ with st.form("user_inputs"):
     subject = st.text_input("Insert the Subject", max_chars=20)
     tone=st.text_input("Complexity level of Questions", max_chars=20, placeholder="Simple")
     input_key = st.text_input("Enter the secret key", max_chars=50, placeholder="Password")
-    print(input_key)
-    print(st_key)
     button = st.form_submit_button("Create MCQs")
     
     # check for button click
