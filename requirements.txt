@@ -16,7 +16,7 @@ python-dotenv
 PyPDF2
 
 langchain_community
-langchain_openai
+langchain-openai
 
 # To install the local package in the environment,
 # you can either use 'python setup.py install'
